@@ -60,7 +60,7 @@ public class RestoreManager extends Service{
 		String startFolder = intradoc.shared.SharedObjects.getEnvironmentValue("RestoreLocation");
 		
 		
-		
+	
 		String did = m_binder.getLocal("dID");
 		String dDocName = m_binder.getLocal("dDocName");
 		String selectedFolderGUID = m_binder.getLocal("selectedFolderGUID");
